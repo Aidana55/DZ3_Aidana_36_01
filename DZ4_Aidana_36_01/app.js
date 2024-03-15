@@ -10,26 +10,17 @@ if (num1[i] === num2[j]){
 }
 console.log(newNum)
 
-// function numArray (arr) {
-// var numArr= [2, -78, 45,4,-7,-6,-10, 26, 30, 8]
-// var sumNum =[]
-// }if ( numArr[i] > 0){
-//     sumNum = []
-// }els
-//
-//
-//
-// let tags = ['li', 'div', 'li', 'p', 'h1', 'p', 'h1','div', 'div', 'li', 'h1', 'p', 'h1', 'ol', 'br'];
-// let array = {}
-// for (let i of tags){
-//     if (array[tags]){
-//         array[tags] += 1
-//     }else {
-//         array[i] = 1}
-//     console.log(array)
-// /
-let tags =['li', 'div', 'li', 'p', 'h1', 'p', 'h1','div', 'div', 'li', 'h1', 'p', 'h1', 'ol', 'br']
-let tagCounts = {}
+ let tags = ['li', 'div', 'li', 'p', 'h1', 'p', 'h1','div', 'div', 'li', 'h1', 'p', 'h1', 'ol', 'br'];
+ let array = {}
+ for (let i of tags) {
+     if (array[tags]) {
+         array[tags] += 1
+     } else {
+         array[i] = 1
+     }
+ }
+console.log(array)
+
 
 
 function avarageOfNumbers (arr){
@@ -51,3 +42,19 @@ return sum/count
 var numbers = [2, -78, 45,4,-7,-6,-10, 26, 30, 8]
 console.log(avarageOfNumbers((numbers)))
 
+
+function words (item) {
+     var filteredWords =[]
+     for (var word in words.length){
+         if(word. toLowerCase.includes('t') && word.toLowerCase.includes('a')){
+             filteredWords.push(word)
+
+
+         }
+     }
+    return filteredWords
+
+     }
+var things = ['text', 'frontend', 'apple', 'melon']
+
+console.log(filteredwords)
