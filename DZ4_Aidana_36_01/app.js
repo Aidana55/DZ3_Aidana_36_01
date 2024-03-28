@@ -19,7 +19,8 @@ console.log(newNum)
          array[i] = 1
      }
  }
-console.log(array)
+ tags.sort()
+console.log(tags)
 
 
 
